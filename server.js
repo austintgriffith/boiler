@@ -2,7 +2,7 @@ var http = require('http');
 module.exports = {
   port:8888,
   init:function(app){
-    app.get('/', function (req, res) {
+    app.get('/backend', function (req, res) {
         res.send("hello");
     });
   }
